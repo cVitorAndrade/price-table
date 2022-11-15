@@ -23,7 +23,7 @@ main {
 .offers {
     display: flex;
     width: 100%;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .offers > div {
@@ -32,13 +32,16 @@ main {
     background: #fff;
     padding-bottom: 2.5rem;
     border-radius: 1rem;
-} 
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.4);
+}
 
 .offers > div h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #00FFFF;
+    background: #006f86;
     color: #fff;
     font-weight: 500;
     height: 4rem;
@@ -100,3 +103,21 @@ main {
     border-radius: 1rem;
 }
 
+.bar-users div ,
+.bar-internet div,
+.bar-project div{
+    width: 0%;
+    height: 1rem;
+    background: #09bfc9;
+    border-radius: 1rem;
+}
+
+.expand {
+    scale: 1.1;
+}
+.offers div:hover :nth-last-child(-n+3){
+    color: #09bfc9;
+}
+.offers div:hover h2{
+    background: #09bfc9;
+}
