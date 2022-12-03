@@ -15,7 +15,7 @@ main {
     max-width: 60rem;
     padding: 4rem 2rem;
     background-color: lightgray;
-    margin: auto;
+    margin: 5rem auto;
     border-radius: 1rem;
     gap: 3.5rem;
 }
@@ -79,6 +79,7 @@ main {
     padding: 1.5rem;
     background-color: #fff;
     gap: 1rem;
+    border-radius: 2px;
 }
 
 .info-users,
@@ -108,7 +109,7 @@ main {
 .bar-project div{
     width: 0%;
     height: 1rem;
-    background: #09bfc9;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     border-radius: 1rem;
 }
 
@@ -116,8 +117,8 @@ main {
     scale: 1.1;
 }
 .offers div:hover :nth-last-child(-n+3){
-    color: #09bfc9;
+    color: #004d7a;
 }
 .offers div:hover h2{
-    background: #09bfc9;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
